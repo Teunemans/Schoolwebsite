@@ -1,6 +1,8 @@
-*{margin: 0;}
+*{
+    margin: 0;
+}
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 html {
     background-color: black;
@@ -11,14 +13,13 @@ ul {
     justify-content: left;
     align-items: center;
     list-style-type: none;
-    overfl rgb(142, 211, 15);
     margin-left: 1vw;
     font-size: 2vw;
     margin-top: 1vw;
-    transition: .1s;
+    transition: .3s;
     :hover {
         color: rgb(255, 255, 255);
-        transition: .1s;
+        transition: .3s;
     }
 }
 
@@ -33,11 +34,8 @@ h1 {
     margin-left: 0;
     font-size: 3vw;
     margin-bottom: 1vw;
-}ow: hidden;
-    background-color: #333;
-    font-family: 'Roboto Mono', monospace;
 }
 
 .navitem {
     text-decoration: none;
-    color:
+}
