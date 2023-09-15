@@ -1,14 +1,29 @@
+*{margin: 0;}
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+html {
+    background-color: black;
+}
+
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color: #333;
-    
+    font-family: 'Roboto Mono', monospace;
 }
 
 .navitem {
     float: left;
     text-decoration: none;
-    color: red;
+    color: rgb(142, 211, 15);
+    margin-left: 2vw;
+    font-size: 2vw;
+}
+
+h1 {
+    color: rgb(142, 211, 15);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 5vw;
+    margin-left: 2vw;
 }
