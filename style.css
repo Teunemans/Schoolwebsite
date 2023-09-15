@@ -7,6 +7,9 @@ html {
 }
 
 ul {
+    display: flex;
+    justify-content: left;
+    align-items: center;
     list-style-type: none;
     overflow: hidden;
     background-color: #333;
@@ -14,12 +17,16 @@ ul {
 }
 
 .navitem {
-    float: left;
     text-decoration: none;
     color: rgb(142, 211, 15);
-    margin-left: 2vw;
+    margin-left: 1vw;
     font-size: 2vw;
     margin-top: 1vw;
+    transition: .1s;
+    :hover {
+        color: rgb(255, 255, 255);
+        transition: .1s;
+    }
 }
 
 h1 {
@@ -32,5 +39,4 @@ h1 {
 .logo {
     margin-left: 0;
     font-size: 3vw;
-    margin: 1vw;
 }
