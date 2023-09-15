@@ -11,14 +11,7 @@ ul {
     justify-content: left;
     align-items: center;
     list-style-type: none;
-    overflow: hidden;
-    background-color: #333;
-    font-family: 'Roboto Mono', monospace;
-}
-
-.navitem {
-    text-decoration: none;
-    color: rgb(142, 211, 15);
+    overfl rgb(142, 211, 15);
     margin-left: 1vw;
     font-size: 2vw;
     margin-top: 1vw;
@@ -40,4 +33,11 @@ h1 {
     margin-left: 0;
     font-size: 3vw;
     margin-bottom: 1vw;
+}ow: hidden;
+    background-color: #333;
+    font-family: 'Roboto Mono', monospace;
 }
+
+.navitem {
+    text-decoration: none;
+    color:
