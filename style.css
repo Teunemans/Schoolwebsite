@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    font-family: 'Roboto Mono', monospace;
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
@@ -8,34 +10,46 @@ html {
     background-color: black;
 }
 
-ul {
+.navbar {
     display: flex;
     justify-content: left;
     align-items: center;
     list-style-type: none;
-    margin-left: 1vw;
-    font-size: 2vw;
-    margin-top: 1vw;
-    transition: .3s;
+    transition: 1000ms;
+    background-color: rgb(85, 85, 85);
     :hover {
-        color: rgb(255, 255, 255);
-        transition: .3s;
+        transition: 1000ms;
     }
 }
 
 h1 {
     color: rgb(142, 211, 15);
     font-family: 'Roboto Mono', monospace;
-    font-size: 5vw;
+    font-size: 3vw;
     margin-left: 2vw;
 }
 
-.logo {
-    margin-left: 0;
-    font-size: 3vw;
-    margin-bottom: 1vw;
+p {
+    color: rgb(236, 228, 228);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2vw;
+    margin-left: 2vw;
 }
 
 .navitem {
     text-decoration: none;
+    font-size: 2vw;
+    margin-left: 2vw;
+    color: rgb(236, 228, 228);
+    transition: 300ms;
+    :hover {
+        color: rgb(142, 211, 15);
+        transition: 300ms;
+    }
+    .logo {
+    margin-left: -1;
+    font-size: 2vw;
+    margin-bottom: 0vw;
+    color: greenyellow;
+    }
 }
