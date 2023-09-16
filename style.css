@@ -8,13 +8,14 @@
 
 html {
     background-color: black;
+    width: 100vw;
+    height: 100vh;
 }
 
 .navbar {
     display: flex;
     justify-content: left;
     align-items: center;
-    list-style-type: none;
     transition: 1000ms;
     background-color: rgb(85, 85, 85);
     :hover {
@@ -22,24 +23,30 @@ html {
     }
 }
 
+.textbody {
+    display: flex-block;
+    width: 100vw;
+}
+
 h1 {
     color: rgb(142, 211, 15);
     font-family: 'Roboto Mono', monospace;
     font-size: 3vw;
-    margin-left: 2vw;
+    justify-content: center;
 }
 
 p {
     color: rgb(236, 228, 228);
     font-family: 'Roboto Mono', monospace;
     font-size: 2vw;
-    margin-left: 2vw;
+    margin-left: 1vw;
 }
 
 .navitem {
     text-decoration: none;
+    list-style-type: none;
+    margin-left: 1vw; 
     font-size: 2vw;
-    margin-left: 2vw;
     color: rgb(236, 228, 228);
     transition: 300ms;
     :hover {
@@ -47,9 +54,7 @@ p {
         transition: 300ms;
     }
     .logo {
-    margin-left: -1;
-    font-size: 2vw;
-    margin-bottom: 0vw;
+    font-size: 3vw;
     color: greenyellow;
     }
 }
