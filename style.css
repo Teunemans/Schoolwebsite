@@ -26,6 +26,7 @@ html {
 .textbody {
     display: flex-block;
     width: 100vw;
+    margin-left: 1vw;
 }
 
 h1 {
@@ -49,12 +50,18 @@ p {
     font-size: 2vw;
     color: rgb(236, 228, 228);
     transition: 300ms;
-    :hover {
+    border-radius: 14px;
+    :hover:not(.logo) {
         color: rgb(142, 211, 15);
         transition: 300ms;
+        border: 2px solid rgb(142, 211, 15);
+        border-radius: 14px;
+        padding: 3px;
     }
     .logo {
     font-size: 3vw;
     color: greenyellow;
+    padding-bottom: 1vw;
+
     }
 }
