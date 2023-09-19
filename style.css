@@ -4,8 +4,20 @@
 
 }
 
+.background {
+    background-image: url("code-background.jpg");
+
+    height: 100vw; 
+
+  /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;background-image: url(code-background.jpg);
+}
+
 body {
     overflow: hidden; /* Hide scrollbars */
+    width: auto
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
@@ -68,4 +80,16 @@ p {
     padding-bottom: 1vw;
 
     }
+}
+
+img {
+    width: 50vw;
+    height: auto;
+}
+
+.imgdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
 }
