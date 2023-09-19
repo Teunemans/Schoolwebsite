@@ -4,6 +4,10 @@
 
 }
 
+body {
+    overflow: hidden; /* Hide scrollbars */
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 html {
