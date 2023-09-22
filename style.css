@@ -20,6 +20,16 @@ body {
     width: auto
 }
 
+.hyperlink {
+    text-decoration: none;
+    color: rgb(142, 211, 15);
+    transition: 300ms;
+    :hover {
+        color: rgb(236, 228, 228);
+        transition: 300ms;
+    }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 html {
