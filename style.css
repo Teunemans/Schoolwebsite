@@ -103,3 +103,9 @@ img {
     align-items: center;
     margin-top: 5vw;
 }
+
+.lyceumlogo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
