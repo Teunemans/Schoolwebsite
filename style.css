@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
 *{
     margin: 0;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
 
 }
 
@@ -57,14 +58,14 @@ html {
 
 h1 {
     color: rgb(142, 211, 15);
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
     font-size: 3vw;
     justify-content: center;
 }
 
 p {
     color: rgb(236, 228, 228);
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
     font-size: 2vw;
     margin-left: 1vw;
 }
