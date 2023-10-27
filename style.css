@@ -194,8 +194,13 @@ img {
     padding: 7px;
     border: 2px red;
     border-radius: 5px;
-    color: gray;
+    color: black;
     font-weight: bold;
     background-color: greenyellow;
     cursor: pointer;
+    transition: 50ms;
+    :hover {
+      background-color: rgb(202, 255, 123);
+      transition: 50ms;
+    }
   }
