@@ -14,7 +14,7 @@ function typeWriter() {
   }
 }
 
-const test = document.getElementById("test");
+let test = document.getElementById("test");
 test = document.innerHTML = "hallo meneer!";
 
 // Script voor Login
