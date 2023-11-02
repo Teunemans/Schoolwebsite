@@ -199,3 +199,7 @@ img {
     background-color: greenyellow;
     cursor: pointer;
   }
+
+.active {
+  color: greenyellow;
+}
