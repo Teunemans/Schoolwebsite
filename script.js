@@ -1,3 +1,4 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"></link>
 var i = 0;
 
 /* De tekst die getypt moet worden */
@@ -17,22 +18,13 @@ function typeWriter() {
 const test = document.getElementById("test");
 test = document.innerHTML = "hallo meneer!";
 
-// Script voor Login
-const loginForm = document.getElementById("login-form");
-const loginButton = document.getElementById("login-form-submit");
-const loginErrorMsg = document.getElementById("login-error-msg");
-
-loginButton.addEventListener("click", (e) => {
-    e.preventDefault();
-    const username = loginForm.username.value;
-
-    if (username === "user" && password === "password") {
-      window.location.href = "geheim.html";
-    } else {
-        loginErrorMsg.style.opacity = 1;
-    }
-})
-
-while (true) {
-
+// Script voor Login pagina
+function checkvalue(){
+  var input = document.getElementById("username").value;
+  if (input == "deGeheimeCode") {
+    window.location.href = "geheim.html";
+  }
+  else {
+    window.alert("Verkeerde code!");
+  }
 }
