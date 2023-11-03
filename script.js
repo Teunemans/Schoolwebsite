@@ -17,14 +17,8 @@ function typeWriter() {
 
 const test = document.getElementById("test");
 test = document.innerHTML = "hallo meneer!";
-
 // Script voor Login pagina
 function checkvalue(){
   var input = document.getElementById("username").value;
   if (input == "deGeheimeCode") {
     window.location.href = "geheim.html";
-  }
-  else {
-    window.alert("Verkeerde code!");
-  }
-}
