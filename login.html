@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>De grote Informatica Website</title>
+    <script defer src="script.js"></script>
 </head>
 <body class="content">
     <nav>
@@ -15,7 +16,7 @@
             <div class="navitem"><a class="navitem" href="informatica.html">Informatica</a></div>
             <div class="navitem"><a class="navitem" href="school.html">School</a></div>
             <div class="navitem"><a class="navitem" href="overmij.html">Over mij</a></div>
-            <div class="navitem"><a href="login.html" class="navitem">Login</a></div>
+            <div class="navitem"><a href="login.html" class="active navitem">Login</a></div>
         </div>
     </nav>
     <main id="main-holder" class="textbody">
@@ -23,15 +24,9 @@
             Login
         </h1>
 
-        <div id="login-error-holder">
-            <p id="login-error-msg">Ongeldige gebruikersnaam <span id="error-msg-second-line">en/of wachtwoord</span></p>
-        </div>
+        <input class="inputField" type="password" placeholder="De code" id="username">
+        <button id="button" onclick="checkvalue()">login</button>
 
-        <form id="login-form">
-            <input type="text" name="gebruikersnaam" id="username-field" class="login-form-field" placeholder="Gebruikersnaam">
-            <input type="password" name="wachtwoord" id="password-field" class="login-form-field" placeholder="Wachtwoord">
-            <input type="submit" value="Login" id="login-form-submit">
-        </form>
     </main>
 </body>
 <html>
