@@ -228,3 +228,10 @@ img {
   background-color: black;
   outline: none;
 }
+
+.PTA {
+  position: fixed;
+  left: 10px;
+  top: 20vw;
+  width: 80%;
+}
