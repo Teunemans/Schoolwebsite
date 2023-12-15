@@ -67,7 +67,7 @@ h1 {
 p {
     color: rgb(236, 228, 228);
     font-family: 'Source Code Pro', monospace;
-    font-size: 2vw;
+    font-size: 150%;
     margin-left: 1vw;
 }
 
@@ -230,9 +230,25 @@ img {
 }
 
 .PTA {
+  display: block;
+  width: 50vw;
+  height: 50vw;
+}
+
+#uitwerkingen {
+  display: block;
+  width: 50vw;
+  height: 50vw;
+}
+
+#scoutingsvg {
+  width: 20%;
+  height: auto;
   position: fixed;
-  left: 10px;
-  top: 20vw;
-  width: 80%;
-  height: 80%;
+  top: 100px;
+  right: 100px;
+}
+
+.overmijtext {
+  width: 70%;
 }
