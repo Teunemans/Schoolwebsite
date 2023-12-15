@@ -11,7 +11,7 @@
 </head>
 <body class="content">
     <nav>
-        <div class="navbar">
+    <div class="navbar">
             <div class="navitem"><a class="navitem logo" href="index.html">>_</a></div>
             <div class="navitem"><a class="navitem" href="index.html">Home</a></div>
             <div class="navitem"><a class="navitem" href="informatica.html">Informatica</a></div>
@@ -23,15 +23,31 @@
     </nav>
     <div class="textbody typewriter">
         <h1 id="title">
-            De grote Informatica Website   
+            Login   
         </h1>
         <p>
-            >Dit is is de website die ik voor Informatica heb gemaakt. 
-            <br>Als u naar een andere pagina wilt navigeren kunt u in de balk hierboven een van de <a target=”_blank” class="hyperlink" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_are_hyperlinks">links</a> klikken
+            Zet kunt u inloggen met uw gebruikersnaam en wachtwoord
         </p>
-        <div class="imgdiv">
-            <img src="Website.jpg" alt="hackerman"> 
-        </div>
+        <form method="POST" action="login.php">
+            <input type="text" name="username" placeholder="Gebruikersnaam">
+            <input type="password" name="password" placeholder="Wachtwoord">
+            <input type="submit" value="Login">
+        </form>
+
     </div>
 </body>
 </html>
+
+<?php 
+
+   $username = $_POST['username'];
+   $password = $_POST['password'];
+
+   // Check the username and password against stored user data
+   if ($username == 'admin' && $password == 'password') {
+       echo 'You are now logged in.';
+   } else {
+       echo 'Invalid username or password.';
+   }
+
+?>
