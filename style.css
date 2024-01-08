@@ -23,6 +23,7 @@ body {
 
 .hyperlink {
     text-decoration: none;
+    
     color: rgb(142, 211, 15);
     transition: 300ms;
     :hover {
@@ -36,7 +37,7 @@ body {
 html {
     background-color: black;
     width: 100vw;
-    height: 100vh;
+    height: 100vh;  
 }
 
 .navbar {
@@ -50,7 +51,7 @@ html {
     }
 }
 
-.textbody {
+.textbodybox {
     display: flex-block;
     width: 100vw;
     margin-left: 1vw;
@@ -97,8 +98,15 @@ p {
 img {
     width: 50vw;
     height: auto;
+    border: greenyellow 5px solid;
+    border-radius: 15px;
 }
 
+.whiteImg {
+  background-color: white;
+  padding: 9px;
+}
+    
 .imgdiv {
     display: flex;
     justify-content: center;
