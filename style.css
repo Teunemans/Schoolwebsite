@@ -22,13 +22,12 @@ body {
 }
 
 .hyperlink {
-    text-decoration: none;
-    
     color: rgb(142, 211, 15);
     transition: 300ms;
     :hover {
         color: rgb(236, 228, 228);
         transition: 300ms;
+        text-decoration: underline;
     }
 }
 
@@ -118,6 +117,7 @@ img {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
 
 /* Typen effect */
