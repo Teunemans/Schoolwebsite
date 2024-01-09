@@ -250,11 +250,11 @@ img {
 }
 
 #scoutingsvg {
-  width: 20%;
+  width: 25%;
   height: auto;
   position: fixed;
   top: 100px;
-  right: 100px;
+  right: 50px;
 }
 
 .overmijtext {
@@ -283,4 +283,11 @@ button {
 
 .loginText {
   margin-top: 20px;
+}
+
+#bergFoto {
+  top: 600px;
+  right: 50px;
+  position: fixed;
+  width: 20%;
 }
