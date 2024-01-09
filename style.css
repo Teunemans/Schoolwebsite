@@ -260,3 +260,27 @@ img {
 .overmijtext {
   width: 70%;
 }
+
+button {
+  text-decoration: none;
+    list-style-type: none;
+    border: black 2px solid;
+    margin-left: 1vw; 
+    font-size: 2vw;
+    color: greenyellow;
+    background-color: rgb(36, 35, 35);
+    padding: 10px;
+    transition: 300ms;
+    border-radius: 14px;
+    :hover {
+        color: rgb(142, 211, 15);
+        transition: 300ms;
+        border: 2px solid rgb(142, 211, 15);
+        border-radius: 14px;
+        padding: 3px;
+    }
+}
+
+.loginText {
+  margin-top: 20px;
+}
