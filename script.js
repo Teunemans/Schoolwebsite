@@ -20,3 +20,8 @@ function checkvalue(){
     window.alert("Verkeerde code!");
   }
 }
+
+function buttonColor() {
+  var button = document.getElementById("button");
+  button.style.backgroundColor = "rgb(93, 145, 16)"
+}
